@@ -29,6 +29,11 @@
                     <needMenu>true</needMenu>
                     <appName>Splash Screen Test</appName>
 
+                    <!--This isn't doing it, even when I put squares.gif right next to the .exe-->
+<!--                    <jvmArgs>
+                        <argument>-splash:squares.gif</argument>
+                    </jvmArgs>-->
+
                     <manifestAttributes>
                         <!--Shows a loading screen while the app is bootin up-->
                         <SplashScreen-Image>images/squares.gif</SplashScreen-Image>
